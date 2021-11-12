@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sumple</title>
+    <link rel="stylesheet" href="css/reboot.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <script src="js/jquery-3.6.0.min.js"></script>
+</head>
+    <header class="header">
+        <h1 class="header-logo">LOGO</h1>
+        <nav class="pc-nav">
+            <ul class="header-nav">
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <span class="nav_toggle">
+            <i></i>
+            <i></i>
+            <i></i>
+        </span>
+        <nav class="nav sp-nav">
+            <ul class="nav_menu_ul">
+                <li class="nav_menu_li"><a href="#about">About</a></li>
+                <li class="nav_menu_li"><a href="#service">Service</a></li>
+                <li class="nav_menu_li"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+<body>
+    <div id="mainvisual">
+        <div class="top-text">
+            <h2 class="top-title">Create Design</h2>
+        </div>
+    </div>
+    <main class="main-wrapper">
+        <section class="about" id="about">
+            <h2 class="section-title">About</h2>
+            <div class="about-texts">
+                <h3 class="heading">
+                    ミニマルで<br>
+                    洗礼されたデザインを。
+                </h3>
+                <div class="text">
+                    <p>近年、ミニマルなデザインが流行しています。 そこで弊社では、 クライアント企業様新規サービス等の課題に対してミニマルで洗練されたデザインを実現さ
+                        せることで解決のサポートを致します。もちろん全てのサービスにおいてミニマルなデザインが課題解決になるわけではないので、課題や今後のサービスの
+                        展開等しっかりとヒアリングを行なった上でご提案させて頂きます。
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="service" id="service">
+            <h2 class="section-title">Service</h2>
+            <div class="double">
+                <div class="item item01">
+                    <div class="item-img">
+                        <img src="img/service-image@2x.jpg" alt="">
+                    </div>
+                    <div class="item-texts">
+                        <h3 class="heading">リリース時のサポートで<br>
+                        サービスのブランディングを</h3>
+                        <p class="text">
+                            弊社では、リリース時もサポートさせて頂きます。プレスリリース用のサイトや動画制作を通して、サービスのブランディングを行わせて頂きます。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="double">
+                <div class="item item02">
+                    <div class="item-texts">
+                        <h3 class="heading">リリース後のサポートで<br>
+                        効果を最大化させる</h3>
+                        <p class="text">
+                        弊社では、リリース後もサポートさせて頂きます。サービスはリリース
+                        後に様々な課題にぶつかります。そこでクライアント様と一緒に改善を行うことで、デザインの効果を最大化させます。
+                        </p>
+                    </div>
+                    <div class="item-img">
+                        <img src="img/service-image02@2x.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="news" id="news">
+            <h2 class="section-title">NEWS</h2>
+            <div class="news-items">
+                <div class="news-item">
+                    <img src="img/card-image1@2x.jpg" alt="">
+                    <h4 class="news-text">
+                        新規サイトを公開しました。今回のサイ
+                        トは白と黒を基調にしたミニマルなデザインになっています。
+                    </h4>
+                </div>
+                <div class="news-item">
+                    <img src="img/card-image2@2x.jpg" alt="">
+                    <h4 class="news-text">
+                        新規サイトを公開しました。今回のサイ
+                        トは白と黒を基調にしたミニマルなデザインになっています。</h4>
+                </div>
+                <div class="news-item">
+                    <img src="img/card-image3@2x.jpg" alt="">
+                    <h4 class="news-text">
+                        新規サイトを公開しました。今回のサイ
+                        トは白と黒を基調にしたミニマルなデザインになっています。</h4>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <h2 class="contact-title">お問い合わせ</h2>
+            <form class="contact-form">
+                <dl>
+                    <dt>採用担当者</dt>
+                    <dd><input type="text"></dd>
+                    <dt>電話番号</dt>
+                    <dd><input type="tel"></dd>
+                    <dt>メールアドレス</dt>
+                    <dd><input type="email"></dd>
+                    <dt>お問い合わせ内容</dt>
+                    <dd><textarea name="textarea" id="textarea" cols="30" rows="10"></textarea></dd>
+                </dl>
+                <input type="submit" class="btn" value="送信">
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>
+            ©︎crest.design all rights reserved
+        </p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
